@@ -30,4 +30,39 @@ The DECaLS catalogue instead contains `SG3_timescale_peak_prob`, the probability
 
 If you use the **CFIS** catalogue, cite both [*Galaxy mergers in UNIONS – I: A simulation-driven hybrid deep learning ensemble for pure galaxy merger classification*](https://doi.org/10.1093/mnras/stae1885) and [*Galaxy mergers in UNIONS – II: Predicting time-scales in the post-merger regime*](https://doi.org/10.1093/mnras/stag178).
 
-If you use the **DECaLS** catalogue, cite [*Galaxy evolution in the post-merger regime. V – Atomic gas evolution traced by ALFALFA stacks*](https://arxiv.org/abs/2609.24925).
+If you use the **DECaLS** catalogue, cite both UNIONS papers above **and** [*Galaxy evolution in the post-merger regime. V – Atomic gas evolution traced by ALFALFA stacks*](https://arxiv.org/abs/2609.24925).
+
+Copy the relevant entries into your paper's BibTeX file:
+
+```bibtex
+@article{Ferreira2024UNIONSI,
+  author  = {Ferreira, Leonardo and Bickley, Robert W. and Ellison, Sara L. and Patton, David R. and Byrne-Mamahit, Shoshannah and Wilkinson, Scott and Bottrell, Connor and Fabbro, S{\'e}bastien and Gwyn, Stephen D. J. and McConnachie, Alan},
+  title   = {Galaxy mergers in {UNIONS} -- {I}. A simulation-driven hybrid deep learning ensemble for pure galaxy merger classification},
+  journal = {Monthly Notices of the Royal Astronomical Society},
+  year    = {2024},
+  volume  = {533},
+  number  = {3},
+  pages   = {2547--2569},
+  doi     = {10.1093/mnras/stae1885}
+}
+
+@article{Ferreira2026UNIONSII,
+  author  = {Ferreira, Leonardo and Ellison, Sara L. and Patton, David R. and Byrne-Mamahit, Shoshannah and Wilkinson, Scott and Bickley, Robert W.},
+  title   = {Galaxy mergers in {UNIONS} -- {II}. Predicting time-scales in the post-merger regime},
+  journal = {Monthly Notices of the Royal Astronomical Society},
+  year    = {2026},
+  volume  = {546},
+  number  = {4},
+  doi     = {10.1093/mnras/stag178}
+}
+
+@misc{Ellison2026PostMergerV,
+  author        = {Ellison, Sara L. and Saraf, Manasvee and Ferreira, Leonardo and Saintonge, Amelie and Scholte, Dirk and Wang, Jing and Huang, Qifeng},
+  title         = {Galaxy evolution in the post-merger regime. {V} -- Atomic gas evolution traced by {ALFALFA} stacks},
+  year          = {2026},
+  eprint        = {2609.24925},
+  archivePrefix = {arXiv},
+  primaryClass  = {astro-ph.GA},
+  url           = {https://arxiv.org/abs/2609.24925}
+}
+```
